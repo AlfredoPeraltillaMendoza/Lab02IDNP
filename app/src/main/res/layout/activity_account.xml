@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+<EditText
+android:id="@+id/newUsername"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Nuevo Username" />
+
+<EditText
+android:id="@+id/newPassword"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Nuevo Password"
+android:inputType="textPassword" />
+
+    <!-- Agregar campos de correo y teléfono -->
+<EditText
+android:id="@+id/newEmail"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Correo electrónico"
+android:inputType="textEmailAddress" />
+
+<EditText
+android:id="@+id/newPhone"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Teléfono"
+android:inputType="phone" />
+
+<Button
+android:id="@+id/acceptButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Aceptar" />
+
+<Button
+android:id="@+id/cancelButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Cancelar" />
+    </LinearLayout>
